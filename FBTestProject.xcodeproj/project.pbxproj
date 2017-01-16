@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CD674402A16EE75F5911E5D /* Pods_FBTestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A94CBF8B79ED146030922D /* Pods_FBTestProject.framework */; };
+		C6801BB91E1025650025A62F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6801BB81E1025650025A62F /* main.m */; };
+		C6801BBC1E1025650025A62F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6801BBB1E1025650025A62F /* AppDelegate.m */; };
+		C6801BBF1E1025650025A62F /* FBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6801BBE1E1025650025A62F /* FBTableViewController.m */; };
+		C6801BC21E1025650025A62F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6801BC01E1025650025A62F /* Main.storyboard */; };
+		C6801BC41E1025650025A62F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6801BC31E1025650025A62F /* Assets.xcassets */; };
+		C6801BC71E1025650025A62F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6801BC51E1025650025A62F /* LaunchScreen.storyboard */; };
+		C6801BDB1E116B730025A62F /* AddNewSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6801BDA1E116B730025A62F /* AddNewSectionViewController.m */; };
+		C6801BDE1E1176970025A62F /* SectionNamesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6801BDD1E1176970025A62F /* SectionNamesTableViewCell.m */; };
+		C6801BE01E1190490025A62F /* sections.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6801BDF1E1190490025A62F /* sections.plist */; };
+		C6801BE31E11932B0025A62F /* FBGalleryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C6801BE21E11932B0025A62F /* FBGalleryItem.m */; };
+		C6801C341E1F160D0025A62F /* FBCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6801C331E1F160D0025A62F /* FBCollectionViewController.m */; };
+		C6801C371E1F220F0025A62F /* GalleryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6801C361E1F220F0025A62F /* GalleryCollectionViewCell.m */; };
+		C6801C3F1E22788A0025A62F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6801C3E1E22788A0025A62F /* GoogleService-Info.plist */; };
+		C6CCC0641E2A3F4300023B17 /* WebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CCC0631E2A3F4300023B17 /* WebServices.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00B9AF457AFDAA5733E960CB /* Pods-FBTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBTestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBTestProject/Pods-FBTestProject.release.xcconfig"; sourceTree = "<group>"; };
+		07A94CBF8B79ED146030922D /* Pods_FBTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C96FC9B6C97A5840AC378D /* Pods-FBTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBTestProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBTestProject/Pods-FBTestProject.debug.xcconfig"; sourceTree = "<group>"; };
+		C6801BB41E1025650025A62F /* FBTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6801BB81E1025650025A62F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6801BBA1E1025650025A62F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6801BBB1E1025650025A62F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6801BBD1E1025650025A62F /* FBTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBTableViewController.h; sourceTree = "<group>"; };
+		C6801BBE1E1025650025A62F /* FBTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBTableViewController.m; sourceTree = "<group>"; };
+		C6801BC11E1025650025A62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6801BC31E1025650025A62F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6801BC61E1025650025A62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6801BC81E1025650025A62F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6801BD91E116B730025A62F /* AddNewSectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewSectionViewController.h; sourceTree = "<group>"; };
+		C6801BDA1E116B730025A62F /* AddNewSectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewSectionViewController.m; sourceTree = "<group>"; };
+		C6801BDC1E1176970025A62F /* SectionNamesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionNamesTableViewCell.h; sourceTree = "<group>"; };
+		C6801BDD1E1176970025A62F /* SectionNamesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionNamesTableViewCell.m; sourceTree = "<group>"; };
+		C6801BDF1E1190490025A62F /* sections.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sections.plist; sourceTree = "<group>"; };
+		C6801BE11E11932B0025A62F /* FBGalleryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGalleryItem.h; sourceTree = "<group>"; };
+		C6801BE21E11932B0025A62F /* FBGalleryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGalleryItem.m; sourceTree = "<group>"; };
+		C6801C321E1F160D0025A62F /* FBCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCollectionViewController.h; sourceTree = "<group>"; };
+		C6801C331E1F160D0025A62F /* FBCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBCollectionViewController.m; sourceTree = "<group>"; };
+		C6801C351E1F220F0025A62F /* GalleryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryCollectionViewCell.h; sourceTree = "<group>"; };
+		C6801C361E1F220F0025A62F /* GalleryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryCollectionViewCell.m; sourceTree = "<group>"; };
+		C6801C3E1E22788A0025A62F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C6801C401E23F87E0025A62F /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "../../../Library/Developer/Xcode/DerivedData/FBTestProject-ahlxcsnfiftpzhgurrcwlrbzzqwz/Build/Products/Debug-iphonesimulator/SDWebImage/libSDWebImage.a"; sourceTree = "<group>"; };
+		C6801C431E23FBC40025A62F /* libGTMSessionFetcher.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGTMSessionFetcher.a; path = "../../../Library/Developer/Xcode/DerivedData/FBTestProject-ahlxcsnfiftpzhgurrcwlrbzzqwz/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/libGTMSessionFetcher.a"; sourceTree = "<group>"; };
+		C6CCC0621E2A3F4300023B17 /* WebServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServices.h; sourceTree = "<group>"; };
+		C6CCC0631E2A3F4300023B17 /* WebServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServices.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6801BB11E1025650025A62F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD674402A16EE75F5911E5D /* Pods_FBTestProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DE4ACCAC1CDB91AC8EA70AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42C96FC9B6C97A5840AC378D /* Pods-FBTestProject.debug.xcconfig */,
+				00B9AF457AFDAA5733E960CB /* Pods-FBTestProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6801BAB1E1025640025A62F = {
+			isa = PBXGroup;
+			children = (
+				C6801BB61E1025650025A62F /* FBTestProject */,
+				C6801BB51E1025650025A62F /* Products */,
+				3DE4ACCAC1CDB91AC8EA70AD /* Pods */,
+				F0FDFC67A9EA832B3D44A8CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C6801BB51E1025650025A62F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6801BB41E1025650025A62F /* FBTestProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6801BB61E1025650025A62F /* FBTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				C6801BCE1E1033A60025A62F /* Sources */,
+				C6801BCF1E1033B00025A62F /* Recources */,
+			);
+			path = FBTestProject;
+			sourceTree = "<group>";
+		};
+		C6801BCE1E1033A60025A62F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C6801BBA1E1025650025A62F /* AppDelegate.h */,
+				C6801BBB1E1025650025A62F /* AppDelegate.m */,
+				C6801BE61E11AD480025A62F /* Cell */,
+				C6801C391E1FBD1F0025A62F /* ViewControllers */,
+				C6801BB81E1025650025A62F /* main.m */,
+				C6801BE51E11AD210025A62F /* AddGroups */,
+				C6801BE41E1193330025A62F /* Model */,
+				C6CCC0621E2A3F4300023B17 /* WebServices.h */,
+				C6CCC0631E2A3F4300023B17 /* WebServices.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		C6801BCF1E1033B00025A62F /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				C6801BC01E1025650025A62F /* Main.storyboard */,
+				C6801BC31E1025650025A62F /* Assets.xcassets */,
+				C6801BC51E1025650025A62F /* LaunchScreen.storyboard */,
+				C6801BC81E1025650025A62F /* Info.plist */,
+				C6801BDF1E1190490025A62F /* sections.plist */,
+				C6801C3E1E22788A0025A62F /* GoogleService-Info.plist */,
+			);
+			name = Recources;
+			sourceTree = "<group>";
+		};
+		C6801BE41E1193330025A62F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6801BE11E11932B0025A62F /* FBGalleryItem.h */,
+				C6801BE21E11932B0025A62F /* FBGalleryItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C6801BE51E11AD210025A62F /* AddGroups */ = {
+			isa = PBXGroup;
+			children = (
+				C6801BD91E116B730025A62F /* AddNewSectionViewController.h */,
+				C6801BDA1E116B730025A62F /* AddNewSectionViewController.m */,
+			);
+			name = AddGroups;
+			sourceTree = "<group>";
+		};
+		C6801BE61E11AD480025A62F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C6801BDC1E1176970025A62F /* SectionNamesTableViewCell.h */,
+				C6801BDD1E1176970025A62F /* SectionNamesTableViewCell.m */,
+				C6801C351E1F220F0025A62F /* GalleryCollectionViewCell.h */,
+				C6801C361E1F220F0025A62F /* GalleryCollectionViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		C6801C391E1FBD1F0025A62F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6801BBD1E1025650025A62F /* FBTableViewController.h */,
+				C6801BBE1E1025650025A62F /* FBTableViewController.m */,
+				C6801C321E1F160D0025A62F /* FBCollectionViewController.h */,
+				C6801C331E1F160D0025A62F /* FBCollectionViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F0FDFC67A9EA832B3D44A8CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6801C431E23FBC40025A62F /* libGTMSessionFetcher.a */,
+				C6801C401E23F87E0025A62F /* libSDWebImage.a */,
+				07A94CBF8B79ED146030922D /* Pods_FBTestProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6801BB31E1025650025A62F /* FBTestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6801BCB1E1025650025A62F /* Build configuration list for PBXNativeTarget "FBTestProject" */;
+			buildPhases = (
+				9011B2ED78CFF7F0E6C7D6A9 /* [CP] Check Pods Manifest.lock */,
+				C6801BB01E1025650025A62F /* Sources */,
+				C6801BB11E1025650025A62F /* Frameworks */,
+				C6801BB21E1025650025A62F /* Resources */,
+				AD1DB88728D44A40C77AA70F /* [CP] Embed Pods Frameworks */,
+				B84B7B235502316CEC39C5A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBTestProject;
+			productName = FBTestProject;
+			productReference = C6801BB41E1025650025A62F /* FBTestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6801BAC1E1025640025A62F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Anthony Zhdanov";
+				TargetAttributes = {
+					C6801BB31E1025650025A62F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C6801BAF1E1025640025A62F /* Build configuration list for PBXProject "FBTestProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6801BAB1E1025640025A62F;
+			productRefGroup = C6801BB51E1025650025A62F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6801BB31E1025650025A62F /* FBTestProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6801BB21E1025650025A62F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6801BE01E1190490025A62F /* sections.plist in Resources */,
+				C6801BC71E1025650025A62F /* LaunchScreen.storyboard in Resources */,
+				C6801C3F1E22788A0025A62F /* GoogleService-Info.plist in Resources */,
+				C6801BC41E1025650025A62F /* Assets.xcassets in Resources */,
+				C6801BC21E1025650025A62F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9011B2ED78CFF7F0E6C7D6A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD1DB88728D44A40C77AA70F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBTestProject/Pods-FBTestProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B84B7B235502316CEC39C5A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBTestProject/Pods-FBTestProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6801BB01E1025650025A62F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6801BBF1E1025650025A62F /* FBTableViewController.m in Sources */,
+				C6801C341E1F160D0025A62F /* FBCollectionViewController.m in Sources */,
+				C6801BDE1E1176970025A62F /* SectionNamesTableViewCell.m in Sources */,
+				C6801BBC1E1025650025A62F /* AppDelegate.m in Sources */,
+				C6CCC0641E2A3F4300023B17 /* WebServices.m in Sources */,
+				C6801BB91E1025650025A62F /* main.m in Sources */,
+				C6801C371E1F220F0025A62F /* GalleryCollectionViewCell.m in Sources */,
+				C6801BDB1E116B730025A62F /* AddNewSectionViewController.m in Sources */,
+				C6801BE31E11932B0025A62F /* FBGalleryItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6801BC01E1025650025A62F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6801BC11E1025650025A62F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6801BC51E1025650025A62F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6801BC61E1025650025A62F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6801BC91E1025650025A62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C6801BCA1E1025650025A62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6801BCC1E1025650025A62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C96FC9B6C97A5840AC378D /* Pods-FBTestProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				INFOPLIST_FILE = FBTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fbi.FBTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6801BCD1E1025650025A62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B9AF457AFDAA5733E960CB /* Pods-FBTestProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				INFOPLIST_FILE = FBTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fbi.FBTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6801BAF1E1025640025A62F /* Build configuration list for PBXProject "FBTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6801BC91E1025650025A62F /* Debug */,
+				C6801BCA1E1025650025A62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6801BCB1E1025650025A62F /* Build configuration list for PBXNativeTarget "FBTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6801BCC1E1025650025A62F /* Debug */,
+				C6801BCD1E1025650025A62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6801BAC1E1025640025A62F /* Project object */;
+}
