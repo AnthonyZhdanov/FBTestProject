@@ -113,7 +113,7 @@
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="sectionNames" rowHeight="60" id="ZDd-1p-Cg2" customClass="SectionNamesTableViewCell">
-                                        <rect key="frame" x="0.0" y="56" width="414" height="60"/>
+                                        <rect key="frame" x="0.0" y="55" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZDd-1p-Cg2" id="QVM-ak-Evb">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="59"/>
@@ -317,7 +317,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Bgk-Fj-rDt" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="2yX-ON-E2j">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" id="2yX-ON-E2j">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
