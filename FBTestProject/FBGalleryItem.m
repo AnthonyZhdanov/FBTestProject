@@ -14,8 +14,8 @@
     self = [super init];
     if (self)
     {
-        self.sectionName = sectionName;
-        self.arrayOfImages = array;
+        _sectionName = [sectionName copy];
+        _arrayOfImages = [array copy];
     }
     return self;
 }

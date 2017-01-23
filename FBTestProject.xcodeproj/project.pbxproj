@@ -20,7 +20,7 @@
 		C6801BE31E11932B0025A62F /* FBGalleryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C6801BE21E11932B0025A62F /* FBGalleryItem.m */; };
 		C6801C341E1F160D0025A62F /* FBCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6801C331E1F160D0025A62F /* FBCollectionViewController.m */; };
 		C6801C371E1F220F0025A62F /* GalleryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6801C361E1F220F0025A62F /* GalleryCollectionViewCell.m */; };
-		C6801C3F1E22788A0025A62F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6801C3E1E22788A0025A62F /* GoogleService-Info.plist */; };
+		C69EC7CF1E356935008B667D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C69EC7CE1E356935008B667D /* GoogleService-Info.plist */; };
 		C6CCC0641E2A3F4300023B17 /* WebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CCC0631E2A3F4300023B17 /* WebServices.m */; };
 /* End PBXBuildFile section */
 
@@ -49,9 +49,9 @@
 		C6801C331E1F160D0025A62F /* FBCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBCollectionViewController.m; sourceTree = "<group>"; };
 		C6801C351E1F220F0025A62F /* GalleryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryCollectionViewCell.h; sourceTree = "<group>"; };
 		C6801C361E1F220F0025A62F /* GalleryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryCollectionViewCell.m; sourceTree = "<group>"; };
-		C6801C3E1E22788A0025A62F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C6801C401E23F87E0025A62F /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "../../../Library/Developer/Xcode/DerivedData/FBTestProject-ahlxcsnfiftpzhgurrcwlrbzzqwz/Build/Products/Debug-iphonesimulator/SDWebImage/libSDWebImage.a"; sourceTree = "<group>"; };
 		C6801C431E23FBC40025A62F /* libGTMSessionFetcher.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGTMSessionFetcher.a; path = "../../../Library/Developer/Xcode/DerivedData/FBTestProject-ahlxcsnfiftpzhgurrcwlrbzzqwz/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/libGTMSessionFetcher.a"; sourceTree = "<group>"; };
+		C69EC7CE1E356935008B667D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		C6CCC0621E2A3F4300023B17 /* WebServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServices.h; sourceTree = "<group>"; };
 		C6CCC0631E2A3F4300023B17 /* WebServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServices.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,7 +128,7 @@
 				C6801BC51E1025650025A62F /* LaunchScreen.storyboard */,
 				C6801BC81E1025650025A62F /* Info.plist */,
 				C6801BDF1E1190490025A62F /* sections.plist */,
-				C6801C3E1E22788A0025A62F /* GoogleService-Info.plist */,
+				C69EC7CE1E356935008B667D /* GoogleService-Info.plist */,
 			);
 			name = Recources;
 			sourceTree = "<group>";
@@ -246,9 +246,9 @@
 			files = (
 				C6801BE01E1190490025A62F /* sections.plist in Resources */,
 				C6801BC71E1025650025A62F /* LaunchScreen.storyboard in Resources */,
-				C6801C3F1E22788A0025A62F /* GoogleService-Info.plist in Resources */,
 				C6801BC41E1025650025A62F /* Assets.xcassets in Resources */,
 				C6801BC21E1025650025A62F /* Main.storyboard in Resources */,
+				C69EC7CF1E356935008B667D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

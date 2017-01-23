@@ -7,13 +7,15 @@
 //
 #import "WebServices.h"
 
-@implementation WebServices
+@implementation WebServices {
+    FIRDatabaseReference *ref;
+}
 
 // All web services in one place
 - (void)loadFirebaseDatabaseWithCompletionBlock:(void(^)(NSArray *array))completionBlock {
-    self.ref = [[FIRDatabase database] reference];
+    ref = [[FIRDatabase database] reference];
     
-    [self.ref observeEventType:FIRDataEventTypeValue withBlock:^(FIRDataSnapshot * _Nonnull snapshot) {
+    [ref observeEventType:FIRDataEventTypeValue withBlock:^(FIRDataSnapshot * _Nonnull snapshot) {
         NSMutableArray *arrayWithSections = [NSMutableArray new];
         arrayWithSections = snapshot.value;
         completionBlock(arrayWithSections);
@@ -60,14 +62,14 @@
 }
 
 - (void)addNewGroupFirebaseDatabase:(NSString *)nameOfGroup indexForNewGroup:(NSString *)index {
-    self.ref = [[FIRDatabase database] reference];
-    [[self.ref child:index] setValue:@{@"name": nameOfGroup}];
+    ref = [[FIRDatabase database] reference];
+    [[ref child:index] setValue:@{@"name": nameOfGroup}];
 }
 
 - (void)addImagesInFirebaseDatabaseByIndex:(int)index arrayOfImagesURLs:(NSMutableArray *)arrayOfURLs {
     NSString *indexOfGroupe = [NSString stringWithFormat:@"%i", index];
-    self.ref = [[FIRDatabase database] reference];
-    [[[self.ref child:indexOfGroupe] child:@"images"] setValue:arrayOfURLs];
+    ref = [[FIRDatabase database] reference];
+    [[[ref child:indexOfGroupe] child:@"images"] setValue:arrayOfURLs];
 }
 
 @end

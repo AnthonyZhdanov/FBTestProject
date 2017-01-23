@@ -15,8 +15,6 @@
 
 @interface WebServices : NSObject
 
-@property FIRDatabaseReference *ref;
-
 - (void)loadFirebaseDatabaseWithCompletionBlock:(void(^)(NSArray *array))completionBlock;
 
 - (void)loadDataByPath:(NSString *)path withCompletionBlock:(void(^)(NSData *data, NSError *error))completionBlock;

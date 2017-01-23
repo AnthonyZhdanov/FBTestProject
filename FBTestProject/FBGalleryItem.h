@@ -10,8 +10,8 @@
 #import <UIKit/UIKit.h>
 
 @interface FBGalleryItem : NSObject
-@property (strong, nonatomic) NSString *sectionName;
-@property (strong, nonatomic) NSArray *arrayOfImages;
+@property (copy, readonly) NSString *sectionName;
+@property (copy, readonly) NSArray *arrayOfImages;
 
 - (instancetype)initWithName:(NSString *)sectionName arrayOfImageNames:(NSArray *)array;
 
